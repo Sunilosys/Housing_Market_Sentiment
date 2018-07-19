@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.fb9e2fa0-35bc-4558-8d33-8b7c1512ea64",
+      "was_cloned": true,
+      "resources": {
+        "manifest": {
+          "eTag": "c62d0154abc9fe817b873af2b2cc3078"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "93081b5d5d76847beef691f1b56322b9"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:471325060569:function:SampleAlexaSkill",
+            "awsRegion": "us-east-1",
+            "functionName": "SampleAlexaSkill",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "74c55292-834d-4115-8495-865b1619b633"
+          }
+        ]
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:471325060569:function:SampleAlexaSkill"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

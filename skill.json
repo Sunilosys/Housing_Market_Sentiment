@@ -1,0 +1,42 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Housing Market Sentiment",
+          "examplePhrases": [
+            "Alexa get housing market sentiment data for past 10 days",
+            "Alexa hack in the box"
+          ],
+          "keywords": [
+            "Housing",
+            "Market",
+            "Sentiment"
+          ],
+          "name": "Housing Market Sentiment",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a2b7ae2f8dc646d5841c1f37f09cfc1d/APP_ICON?versionId=DBw_6ypx5HH4.94tD3_Cex35G0pGeipD&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074741&Signature=E19jaNiyJdkSg8sxGXEWusxmVoc%3D",
+          "description": "This skill provides the housing market sentiment indicator by analyzing the housing market related tweets from the twitter, using Alchemy Language API (NLP) from IBM Watson. For more info, please visit http://www.housimento.io.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/03a46779d6d940e18f828c61f33ec271/APP_ICON_LARGE?versionId=tmKqYYROvuvd9iJn6QljkCZx2wXZbosS&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074741&Signature=vNZSA6poqILaBAKTrf4YUPOhQAk%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "category": "NEWS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/us-east-1_SampleAlexaSkill"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

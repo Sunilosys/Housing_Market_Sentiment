@@ -1,0 +1,30 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hack in the box",
+      "intents": [
+        {
+          "name": "OneshotHMIntent",
+          "samples": [
+            "what is the housing market sentiment",
+            "what is the housing market sentiment for past ten days",
+            "get me the housing market sentiment",
+            "get me the housing market sentiment for past ten days"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Thank you for using housiment"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        }
+      ]
+    }
+  }
+}
